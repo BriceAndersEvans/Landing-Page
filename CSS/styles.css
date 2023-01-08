@@ -1,0 +1,263 @@
+/* BASIC */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding-top: 82px;
+    font-family: "Roboto", sans-serif;
+    background-color: #3A445D;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logos {
+    display: flex;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: large;
+    font-weight: 800;
+  }
+  
+  input[type="button"] {
+    background-color: #5E5768;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="button"]:hover {
+    cursor: pointer;
+    background: #3163b3;
+  }
+  
+  header,
+  #aboutus,
+  footer {
+    background-color: #3A445D;
+  }
+  
+  h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  
+  h3 {
+    margin: 1rem 0;
+  }
+  
+  /* HEADER */
+
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    color: #e5e7ebad;
+  }
+  
+  /* ABOUT US*/
+
+  #aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0rem 5rem;
+    gap: 2rem;
+  }
+  
+  #aboutus-text {
+    max-width: 30%;
+  }
+  
+  #aboutus-image {
+    max-width: 38%;
+  }
+  
+  #aboutus-text h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0.5rem;
+  }
+  
+  #aboutus-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 1rem;
+  }
+  
+ /* Attributes */
+
+  #attributes {
+    padding: 90px 0 5rem;
+    background-color: #e5e7eb;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #attributes-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+  }
+  
+  i {
+    font-size: 4rem;
+    color: #14418a;
+  }
+  
+  .attribute {
+    max-width: 23%;
+    min-width: 250px;
+  }
+  
+  .attribute p {
+    line-height: 1.5;
+  }
+  
+ /* OWLS OF THE MONTH */
+
+  #oom {
+    background: #e5e7eb;
+    padding: 100px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  #ooms-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .ooms {
+    max-width: 23%;
+    min-width: 250px;
+  }
+  
+  .ooms-text {
+    line-height: 1.5;
+    font-style: italic;
+  }
+  
+  .owl {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  
+  .owl img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  
+  .owl-text {
+    margin-left: 1rem;
+  }
+  
+  .name {
+    margin: 0 0 0.2rem;
+    font-weight: 500;
+  }
+  
+  .region {
+    margin: 0;
+  }
+  
+  /* JOIN US*/
+  #joinus {
+    padding: 4rem 0;
+    background-color: #e5e7eb;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #joinus-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #5E5768;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 2rem 0;
+    color: #e5e7eb;
+    gap: 2rem;
+    
+  }
+  
+  #joinus h2 {
+    margin: 0 0 0.5rem 0;
+    color: #fff;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  #joinus p {
+    color: #ddd;
+    font-size: 18px;
+  }
+  
+  #joinus input[type="button"] {
+    border: 2px solid #fff;
+    padding: 0.7rem 2.3rem;
+  }
+  
+  #joinus input[type="button"]:hover {
+    background: #fff;
+    color: black;
+  }
+
+  /* FOOTER */
+
+  footer {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #ccc;
+  }
